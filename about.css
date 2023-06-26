@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F6FFDE;
+}
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    background-color: #AAC8A7;
+    font-family: 'Acme', sans-serif;
+    position: sticky;
+    top: 0;
+    
+}
+
+#bar{
+    display: flex;
+   
+    align-items: center;
+    justify-content: center;
+}
+
+#bar li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    font-size: 21px;
+    user-select: none;
+}
+
+#bar li{
+    list-style-type: none;
+}
+
+#bar #active{
+    color: rgb(170, 58, 30);
+}
+
+#home{
+    display: flex;
+    
+    justify-content: center;
+    
+    
+    height: 230px;
+}
+
+
+
+
+#order{
+   
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Acme', sans-serif;
+    color: #27374D;
+}
+
+footer{
+    background-color: #C9DBB2;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    height: 35px;
+}
+
+#photu{
+    height: 150px;
+    width: 150px;
+    margin-top: 30px;
+  
+    border-radius: 150px;
+}
+
+#photu img{
+    height: 100%;
+    width: 100%;
+    border-radius: 150px;
+   
+
+}
+
+#veer #ani{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #27374D;
+}
+
+#veer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 180px;
+    margin-top: 50px;
+    margin-left: 10px;
+   
+ 
+}
+
+#center{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+}
+
+#order .desc{
+    width: 345px;
+    height: 150px;
+    margin-left: 8px;
+}
+
+.desc p{
+    margin-top: -30px;
+}
+
+#order .poor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 345px;
+    height: 180px;
+}
+
+#order .good{
+    height: 170px;
+    width: 120px;
+    min-height: 120px;
+    min-height: 120px;
+    padding: 6px;
+}
+#order .good img{
+    height: 100%;
+    width: 100%;
+}
+
+#para{
+    margin-top: 20px;
+}
+
+#para span{
+    color: rgb(187, 31, 226);
+   
+}
+
+#barcode{
+    margin-top: 15px;
+    height: 250px;
+    width: 200px;
+  
+  }
+  
+  #barcode img{
+    height: 100%;
+    width: 100%;
+  }
