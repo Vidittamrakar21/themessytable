@@ -18,13 +18,17 @@ let k22 = document.getElementById("k22");
 let k23 = document.getElementById("k23");
 let k24 = document.getElementById("k24");
 let k25 = document.getElementById("k25");
+let k26 = document.getElementById("k26");
+let k27 = document.getElementById("k27");
+let k28 = document.getElementById("k28");
+let k29 = document.getElementById("k29");
 
 let x;
 
 
-const desc = ["Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get customized painted mirrors !","Get customized wallet cards !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !"]
+const desc = ["Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get customized painted mirrors !","Get customized wallet cards !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !"]
 
-const photo = ["/images/o2.jpg","/images/o3.jpg","/images/o4.jpg","/images/o5.webp","/images/o6.jpg","/images/o7.jpg","/images/o8.jpg","/images/o9.webp","/images/o10.jpg","/images/o11.jpg","/images/o14.jpg","/images/o17.jpg","/images/w1.jpg","/images/n2.jpg","/images/n3.jpg","/images/n5.jpg","/images/n6.jpg","/images/n7.jpg","/images/n8.jpg"]
+const photo = ["/images/o2.jpg","/images/o3.jpg","/images/o4.jpg","/images/o5.webp","/images/o6.jpg","/images/o7.jpg","/images/o8.jpg","/images/o9.webp","/images/o10.jpg","/images/o11.jpg","/images/o14.jpg","/images/o17.jpg","/images/w1.jpg","/images/n2.jpg","/images/n3.jpg","/images/n5.jpg","/images/n6.jpg","/images/n7.jpg","/images/n8.jpg","/images/e1.jpg","/images/e2.jpg","/images/e4.jpg","/images/e5.jpg"]
 
 
 
@@ -98,6 +102,22 @@ k24.addEventListener('click' ,(e) => {
 })
 k25.addEventListener('click' ,(e) => {
     display(18);
+})
+
+k26.addEventListener('click' ,(e) => {
+    display(19);
+})
+
+k27.addEventListener('click' ,(e) => {
+    display(20);
+})
+
+k28.addEventListener('click' ,(e) => {
+    display(21);
+})
+
+k29.addEventListener('click' ,(e) => {
+    display(22);
 })
 
 function display(x){
