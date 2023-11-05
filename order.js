@@ -12,6 +12,7 @@ let k10 = document.getElementById("k10");
 let k11 = document.getElementById("k11");
 let k12 = document.getElementById("k12");
 let k13 = document.getElementById("k13");
+let k14 = document.getElementById("k14");
 let k20 = document.getElementById("k20");
 let k21 = document.getElementById("k21");
 let k22 = document.getElementById("k22");
@@ -22,13 +23,20 @@ let k26 = document.getElementById("k26");
 let k27 = document.getElementById("k27");
 let k28 = document.getElementById("k28");
 let k29 = document.getElementById("k29");
+let t1 = document.getElementById("t1");
+let t2 = document.getElementById("t2");
+let t3 = document.getElementById("t3");
+let t4 = document.getElementById("t4");
+let c1 = document.getElementById("c1");
+let c2 = document.getElementById("c2");
+let c3 = document.getElementById("c3");
 
 let x;
 
 
-const desc = ["Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get customized painted mirrors !","Get customized wallet cards !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !"]
+const desc = ["Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get customized painted mirrors !","Get customized wallet cards !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized themed bookmarks !","Get customized themed bookmarks !","Get customized themed bookmarks !","Get customized themed bookmarks !","Get customized handmade cards !","Get customized handmade cards !"]
 
-const photo = ["/images/o2.jpg","/images/o3.jpg","/images/o4.jpg","/images/o5.webp","/images/o6.jpg","/images/o7.jpg","/images/o8.jpg","/images/o9.webp","/images/o10.jpg","/images/o11.jpg","/images/o14.jpg","/images/o17.jpg","/images/w1.jpg","/images/n2.jpg","/images/n3.jpg","/images/n5.jpg","/images/n6.jpg","/images/n7.jpg","/images/n8.jpg","/images/e1.jpg","/images/e2.jpg","/images/e4.jpg","/images/e5.jpg"]
+const photo = ["/images/o2.jpg","/images/o3.jpg","/images/o4.jpg","/images/o5.webp","/images/o6.jpg","/images/o7.jpg","/images/o8.jpg","/images/o9.webp","/images/o10.jpg","/images/o11.jpg","/images/o14.jpg","/images/o17.jpg","/images/w1.jpg","/images/n2.jpg","/images/n3.jpg","/images/n5.jpg","/images/n6.jpg","/images/n7.jpg","/images/n8.jpg","/images/e1.jpg","/images/e2.jpg","/images/e4.jpg","/images/e5.jpg","/images/t6.jpg","/images/t7.jpg","/images/t8.jpg","/images/t3.jpg","/images/t5.jpg","/images/t4.jpg"]
 
 
 
@@ -85,6 +93,11 @@ k13.addEventListener('click' ,(e) => {
     
 })
 
+k14.addEventListener('click' ,(e) => {
+    display(401);
+    
+})
+
 k20.addEventListener('click' ,(e) => {
     display(13);
 })
@@ -118,6 +131,30 @@ k28.addEventListener('click' ,(e) => {
 
 k29.addEventListener('click' ,(e) => {
     display(22);
+})
+t1.addEventListener('click' ,(e) => {
+    display(23);
+})
+t2.addEventListener('click' ,(e) => {
+    display(24);
+})
+t3.addEventListener('click' ,(e) => {
+    display(25);
+})
+t4.addEventListener('click' ,(e) => {
+    display(26);
+})
+
+c1.addEventListener('click' ,(e) => {
+    display(402);
+})
+
+c2.addEventListener('click' ,(e) => {
+    display(27);
+})
+
+c3.addEventListener('click' ,(e) => {
+    display(28);
 })
 
 function display(x){
@@ -158,6 +195,79 @@ function display(x){
     let ex = document.getElementById("ex");
     ex.style.height = "1300px";
 }
+
+else if (x === 401){
+    order.innerHTML = `  <div id="ex">
+    <h2 id="prev">&lt; Back</h2>
+    <div id="im">
+    <img src="/images/t1.jpg" alt="">
+    </div>
+
+    <div id="im">
+    <img src="/images/t2.jpg" alt="">
+    </div>
+    
+    <div id="war">
+    <p>${desc[12]}</p>
+    
+    </div>
+    
+<div id="steps">
+<h3>Steps To Order ~</h3>
+<ul>
+<li>Take the screenshot of this page</li>
+<li>Send this screenshot  to our instagram page <a href="https://www.instagram.com/_the_messytable._/">_the_messytable._</a>(click / scan below) or mail us at <a href="mailto:themessytable2021@gmail.com">themessytable2021@gmail.com</a></li>
+<li>After getting reply send the desired images</li>
+<li>Make the payment.</li>
+<li>Your order is confirmed !</li>
+</ul>
+        </div>
+        
+<div id="barcode">
+<img src="/images/bar.jpg" alt="">
+</div>
+</div>`
+
+let ex = document.getElementById("ex");
+ex.style.height = "1300px";
+}
+
+    else if(x === 402){
+        
+            order.innerHTML = `  <div id="ex">
+            <h2 id="prev">&lt; Back</h2>
+            <div id="im">
+            <img src="/images/t9.jpg"  alt="">
+            </div>
+        
+            <div id="im">
+            <img src="/images/t10.jpg" " alt="">
+            </div>
+            
+            <div id="war">
+            <p>"Get customized handmade cards !"</p>
+            
+            </div>
+            
+        <div id="steps">
+        <h3>Steps To Order ~</h3>
+        <ul>
+        <li>Take the screenshot of this page</li>
+        <li>Send this screenshot  to our instagram page <a href="https://www.instagram.com/_the_messytable._/">_the_messytable._</a>(click / scan below) or mail us at <a href="mailto:themessytable2021@gmail.com">themessytable2021@gmail.com</a></li>
+        <li>After getting reply send the desired images</li>
+        <li>Make the payment.</li>
+        <li>Your order is confirmed !</li>
+        </ul>
+                </div>
+                
+        <div id="barcode">
+        <img src="/images/bar.jpg" alt="">
+        </div>
+        </div>`
+        
+        let ex = document.getElementById("ex");
+        ex.style.height = "1300px";
+    }
 
     else{
 

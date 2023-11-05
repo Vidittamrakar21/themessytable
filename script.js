@@ -33,6 +33,8 @@ let b1 = document.getElementById("b1");
 let b2 = document.getElementById("b2");
 let b3 = document.getElementById("b3");
 let b4 = document.getElementById("b4");
+let b5 = document.getElementById("b5");
+let b6 = document.getElementById("b6");
 
 b1.addEventListener('click', (e) =>{
     window.location = "frame.html";
@@ -48,4 +50,12 @@ b3.addEventListener('click', (e) =>{
 
 b4.addEventListener('click', (e) =>{
     window.location = "wallet.html";
+})
+
+b5.addEventListener('click', (e) =>{
+    window.location = "book.html";
+})
+
+b6.addEventListener('click', (e) =>{
+    window.location = "card.html";
 })

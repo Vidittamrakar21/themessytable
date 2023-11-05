@@ -1,26 +1,38 @@
 let order = document.getElementById("order");
 
-let k13 = document.getElementById("k13");
-let k14 = document.getElementById("k14");
+let t1 = document.getElementById("t1");
+let t2 = document.getElementById("t2");
+let t3 = document.getElementById("t3");
+let t4 = document.getElementById("t4");
+
 let x;
 
 
-const desc = ["Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get customized painted mirrors !","Get customized wallet cards !"]
+const desc = ["Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get Customized Frames for your loved ones !","Get customized painted mirrors !","Get customized painted mirrors !","Get customized wallet cards !","Get customized themed bookmarks !","Get customized themed bookmarks !","Get customized themed bookmarks !","Get customized themed bookmarks !"]
 
-const photo = ["/images/o2.jpg","/images/o3.jpg","/images/o4.jpg","/images/o5.webp","/images/o6.jpg","/images/o7.jpg","/images/o8.jpg","/images/o9.webp","/images/o10.jpg","/images/o11.jpg","/images/o14.jpg","/images/o17.jpg","/images/w1.jpg"]
-
-
+const photo = ["/images/o2.jpg","/images/o3.jpg","/images/o4.jpg","/images/o5.webp","/images/o6.jpg","/images/o7.jpg","/images/o8.jpg","/images/o9.webp","/images/o10.jpg","/images/o11.jpg","/images/o14.jpg","/images/o17.jpg","/images/w1.jpg","/images/t6.jpg","/images/t7.jpg","/images/t8.jpg","/images/t3.jpg"]
 
 
-k13.addEventListener('click' ,(e) => {
-    display(12);
-    
-})
 
-k14.addEventListener('click' ,(e) => {
+
+
+t1.addEventListener('click' ,(e) => {
     display(13);
-    
 })
+
+t2.addEventListener('click' ,(e) => {
+    display(14);
+})
+
+t3.addEventListener('click' ,(e) => {
+    display(15);
+})
+
+t4.addEventListener('click' ,(e) => {
+    display(16);
+})
+
+
 
 function display(x){
     
@@ -61,42 +73,6 @@ function display(x){
     ex.style.height = "1300px";
 }
 
-else if(x === 13){
-    order.innerHTML = `  <div id="ex">
-    <h2 id="prev">&lt; Back</h2>
-    <div id="im">
-    <img src="/images/t1.jpg" alt="">
-    </div>
-
-    <div id="im">
-    <img src="/images/t2.jpg" alt="">
-    </div>
-    
-    <div id="war">
-    <p>${desc[12]}</p>
-    
-    </div>
-    
-<div id="steps">
-<h3>Steps To Order ~</h3>
-<ul>
-<li>Take the screenshot of this page</li>
-<li>Send this screenshot  to our instagram page <a href="https://www.instagram.com/_the_messytable._/">_the_messytable._</a>(click / scan below) or mail us at <a href="mailto:themessytable2021@gmail.com">themessytable2021@gmail.com</a></li>
-<li>After getting reply send the desired images</li>
-<li>Make the payment.</li>
-<li>Your order is confirmed !</li>
-</ul>
-        </div>
-        
-<div id="barcode">
-<img src="/images/bar.jpg" alt="">
-</div>
-</div>`
-
-let ex = document.getElementById("ex");
-ex.style.height = "1300px";
-}
-
     else{
 
         order.innerHTML = `  <div id="ex">
@@ -130,7 +106,7 @@ ex.style.height = "1300px";
 let back = document.getElementById("prev");
 
 back.addEventListener('click' ,(e) =>{
-    window.location = "wallet.html";
+    window.location = "book.html";
 })
 
 } 
